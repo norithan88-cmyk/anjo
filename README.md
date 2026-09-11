@@ -1,4 +1,4 @@
-# Anjoy NAVI リニューアル
+# Anjo NAVI リニューアル
 
 公開予定ドメイン: https://anjo.sunsun.live/
 
