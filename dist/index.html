@@ -7,7 +7,7 @@
   <title>Anjo NAVI｜安城市のお店・企業案内</title>
   <link rel="canonical" href="https://anjo.sunsun.live/">
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
-  <link rel="stylesheet" href="styles.css?v=2">
+  <link rel="stylesheet" href="styles.css?v=3">
 </head>
 <body>
   <header class="site-header">
@@ -41,6 +41,23 @@
         <div class="search-row">
           <input id="search-input" type="search" placeholder="例：カフェ、御幸本町、ホテル" autocomplete="off">
           <button type="submit">検索</button>
+        </div>
+        <div class="search-options">
+          <label>業種
+            <select id="category-select">
+              <option value="すべて">すべての業種</option>
+              <option>飲食・仕出し</option><option>食品</option><option>ファッション・美容</option>
+              <option>ショップ</option><option>サービス・レジャー</option><option>医療・暮らし</option>
+              <option>自動車・運送</option><option>建設・工業</option>
+            </select>
+          </label>
+          <label>並び順
+            <select id="sort-select">
+              <option value="name">店名順</option>
+              <option value="category">業種順</option>
+            </select>
+          </label>
+          <button class="reset-button" id="reset-button" type="button">条件をクリア</button>
         </div>
         <p id="result-summary" aria-live="polite">確認済み・確認中の掲載情報を表示しています。</p>
       </form>
@@ -76,6 +93,7 @@
         <p>現行の地域商業情報と、旧版から再確認できた事業者を掲載しています。</p>
       </div>
       <div class="listing-grid" id="listing-grid"></div>
+      <button class="more-button" id="more-button" type="button" hidden>さらに表示</button>
       <div class="empty-state" id="empty-state" hidden>
         <b>該当する情報が見つかりませんでした</b>
         <p>検索語を短くするか、別の業種を選んでください。</p>
@@ -101,6 +119,6 @@
     <p>掲載情報は2026年9月12日確認。来店・利用前に各事業者の最新情報をご確認ください。</p>
   </footer>
   <script src="listings.js"></script>
-  <script src="app.js"></script>
+  <script src="app.js?v=3"></script>
 </body>
 </html>
