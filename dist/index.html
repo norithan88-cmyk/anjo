@@ -7,7 +7,7 @@
   <title>Anjo NAVI｜安城市のお店・企業案内</title>
   <link rel="canonical" href="https://anjo.sunsun.live/">
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
-  <link rel="stylesheet" href="styles.css?v=3">
+  <link rel="stylesheet" href="styles.css?v=4">
 </head>
 <body>
   <header class="site-header">
@@ -25,9 +25,9 @@
   <main id="top">
     <section class="status-bar" aria-label="情報の確認状況">
       <span class="status-dot"></span>
-      <b>152件の掲載情報を確認</b>
+      <b id="listing-count">158件の店舗・企業情報</b>
       <span>現行の地域商業情報を中心に、旧Anjo NAVIの情報も順次照合しています。</span>
-      <time datetime="2026-09-12">2026年9月12日確認</time>
+      <time datetime="2026-09-12">最終調査：2026年9月12日</time>
     </section>
 
     <section class="hero">
@@ -89,8 +89,8 @@
 
     <section class="directory" id="directory" aria-labelledby="directory-title">
       <div class="section-heading">
-        <div><p class="section-label">CHECKED LISTINGS</p><h2 id="directory-title">現在情報を確認した掲載候補</h2></div>
-        <p>現行の地域商業情報と、旧版から再確認できた事業者を掲載しています。</p>
+        <div><p class="section-label">CHECKED LISTINGS</p><h2 id="directory-title">店舗・企業の掲載情報</h2></div>
+        <p>公式情報・商店街掲載・法人情報の確認を区別しています。営業状況が未確認の情報も含みます。</p>
       </div>
       <div class="listing-grid" id="listing-grid"></div>
       <button class="more-button" id="more-button" type="button" hidden>さらに表示</button>
@@ -108,7 +108,7 @@
       <ol>
         <li><span>01</span><div><b>旧情報を抽出</b><p>旧Anjo NAVIに掲載された店名、業種、住所などを整理します。</p></div></li>
         <li><span>02</span><div><b>現在情報と照合</b><p>公式サイト、商工会議所、自治体、事業者発信などを確認します。</p></div></li>
-        <li><span>03</span><div><b>確認状態を表示</b><p>確認済み、名称変更、要確認を区別し、確認日と情報元を示します。</p></div></li>
+        <li><span>03</span><div><b>確認状態を表示</b><p>公式情報・商店街掲載・法人情報・要確認を区別し、各情報の確認日と情報元を示します。</p></div></li>
       </ol>
       <aside><b>旧版の「2,806店」は現在の店舗数ではありません。</b><p>旧サイトに表示されていた掲載件数です。全件を再確認するまで、現在営業中の総数としては扱いません。</p></aside>
     </section>
@@ -116,9 +116,9 @@
 
   <footer>
     <div><b>Anjo NAVI</b><p>安城市の地域商業情報を、探しやすく、確かめやすく。</p></div>
-    <p>掲載情報は2026年9月12日確認。来店・利用前に各事業者の最新情報をご確認ください。</p>
+    <p>最終調査：2026年9月12日。各店舗の確認日・確認範囲をご覧ください。来店・利用前に営業日時をご確認ください。</p>
   </footer>
-  <script src="listings.js"></script>
-  <script src="app.js?v=3"></script>
+  <script src="listings.js?v=4"></script>
+  <script src="app.js?v=4"></script>
 </body>
 </html>

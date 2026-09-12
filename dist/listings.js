@@ -5,10 +5,13 @@ const officialListings = [
     "keywords": "ABホテル安城 末広町8-20",
     "address": "安城市末広町8-20",
     "phone": "0566-70-7812",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "AQUALIKE",
@@ -16,10 +19,13 @@ const officialListings = [
     "keywords": "AQUALIKE 御幸本町16-14",
     "address": "安城市御幸本町16-14",
     "phone": "0566-76-2333",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "ARAW",
@@ -27,10 +33,13 @@ const officialListings = [
     "keywords": "ARAW 御幸本町18-10",
     "address": "安城市御幸本町18-10",
     "phone": "0566-77-5617",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "ASA安城",
@@ -38,10 +47,13 @@ const officialListings = [
     "keywords": "ASA安城 花ノ木町15－2",
     "address": "安城市花ノ木町15－2",
     "phone": "0566-76-3438",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "Bar Yotarou",
@@ -49,10 +61,13 @@ const officialListings = [
     "keywords": "Bar Yotarou 御幸本町8-6 東海ビル",
     "address": "安城市御幸本町8-6 東海ビル",
     "phone": "080-4847-4989",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "café angora",
@@ -60,10 +75,13 @@ const officialListings = [
     "keywords": "café　angora 花ノ木町8-6",
     "address": "安城市花ノ木町8-6",
     "phone": "0566-55-7878",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "cocoRoサロン直",
@@ -71,10 +89,13 @@ const officialListings = [
     "keywords": "cocoRoサロン直 御幸本町6-4",
     "address": "安城市御幸本町6-4",
     "phone": "掲載なし",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所を確認。電話番号は掲載されていません。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "学習塾 CyberThink",
@@ -82,10 +103,13 @@ const officialListings = [
     "keywords": "学習塾　CyberThink 御幸本町18-9",
     "address": "安城市御幸本町18-9",
     "phone": "0566-87-1421",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "DEN CITY",
@@ -93,10 +117,13 @@ const officialListings = [
     "keywords": "DEN CITY 刈谷市泉田町古和井１番地　角文株式会社",
     "address": "安城市刈谷市泉田町古和井１番地 角文株式会社",
     "phone": "0566-33-5132",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "Design Office calm",
@@ -104,10 +131,13 @@ const officialListings = [
     "keywords": "Design　Office　calm 御幸本町8-4",
     "address": "安城市御幸本町8-4",
     "phone": "090-1823-8158",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "EIGHT ART HOUSE",
@@ -115,10 +145,13 @@ const officialListings = [
     "keywords": "EIGHT ART   HOUSE 末広町8-4　DENCITY 1F",
     "address": "安城市末広町8-4 DENCITY 1F",
     "phone": "0566-57-7039",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "ELEBAR ANJO",
@@ -126,10 +159,13 @@ const officialListings = [
     "keywords": "ELEBAR ANJO 御幸本町3-1   グリーンパールビル1F北",
     "address": "安城市御幸本町3-1 グリーンパールビル1F北",
     "phone": "0566-91-5133",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "レディースシェービング＆エステサロン FELICIA",
@@ -137,10 +173,13 @@ const officialListings = [
     "keywords": "レディースシェービング＆エステサロン　FELICIA 御幸本町7-3",
     "address": "安城市御幸本町7-3",
     "phone": "0566-76-2388",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "（株）meets",
@@ -148,10 +187,13 @@ const officialListings = [
     "keywords": "（株）meets 御幸本町10-6",
     "address": "安城市御幸本町10-6",
     "phone": "0566-71-4335",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "Music Bar Encourage",
@@ -159,10 +201,13 @@ const officialListings = [
     "keywords": "Music Bar   Encourage 御幸本町18－3",
     "address": "安城市御幸本町18－3",
     "phone": "0566-55-3300",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "OHANA CURRY（オハナカレー）",
@@ -170,10 +215,13 @@ const officialListings = [
     "keywords": "OHANA　CURRY（オハナカレー） 御幸本町10-15",
     "address": "安城市御幸本町10-15",
     "phone": "0566-95-7772",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "T’ｓ gallery",
@@ -181,10 +229,13 @@ const officialListings = [
     "keywords": "T’ｓ　gallery 御幸本町8-5",
     "address": "安城市御幸本町8-5",
     "phone": "0566-77-0811",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "TEA STAND ROB 安城店",
@@ -192,10 +243,13 @@ const officialListings = [
     "keywords": "TEA STAND   ROB　安城店 御幸本町6-6奥井ビル",
     "address": "安城市御幸本町6-6奥井ビル",
     "phone": "0566-91-6511",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "アイコーポレーション",
@@ -203,10 +257,13 @@ const officialListings = [
     "keywords": "アイコーポレーション 桜町17-5APビル４F",
     "address": "安城市桜町17-5APビル４F",
     "phone": "0566-77-3890",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "旭軒",
@@ -214,10 +271,13 @@ const officialListings = [
     "keywords": "旭軒 御幸本町12-29",
     "address": "安城市御幸本町12-29",
     "phone": "0566-76-2820",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "アルドラ",
@@ -225,10 +285,13 @@ const officialListings = [
     "keywords": "アルドラ 花ノ木町6-13",
     "address": "安城市花ノ木町6-13",
     "phone": "0566-93-3331",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "安城印刷株式会社",
@@ -236,10 +299,13 @@ const officialListings = [
     "keywords": "安城印刷株式会社 花ノ木町5-2",
     "address": "安城市花ノ木町5-2",
     "phone": "0566-75-1188",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "アンジョウウッシーナ",
@@ -247,10 +313,13 @@ const officialListings = [
     "keywords": "アンジョウウッシーナ 御幸本町16-2",
     "address": "安城市御幸本町16-2",
     "phone": "0566-91-8655",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "安城畜産",
@@ -258,10 +327,13 @@ const officialListings = [
     "keywords": "安城畜産 御幸本町16-2",
     "address": "安城市御幸本町16-2",
     "phone": "0566-76-2201",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "安城横丁(や、フードサービス（株））",
@@ -269,10 +341,13 @@ const officialListings = [
     "keywords": "安城横丁(や、フードサービス（株）） 御幸本町8-2",
     "address": "安城市御幸本町8-2",
     "phone": "0566-95-2270",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "安八",
@@ -280,10 +355,13 @@ const officialListings = [
     "keywords": "安八 御幸本町7-4",
     "address": "安城市御幸本町7-4",
     "phone": "0566-76-2768",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "居酒屋 39",
@@ -291,10 +369,13 @@ const officialListings = [
     "keywords": "居酒屋 39 御幸本町7-13",
     "address": "安城市御幸本町7-13",
     "phone": "050-5589-4783",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "居酒屋みか",
@@ -302,10 +383,13 @@ const officialListings = [
     "keywords": "居酒屋みか 御幸本町6-6",
     "address": "安城市御幸本町6-6",
     "phone": "0566-72-4141",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "衆議院議員 石井 拓 事務所",
@@ -313,10 +397,13 @@ const officialListings = [
     "keywords": "衆議院議員 石井 拓 事務所 花ノ木町49-96",
     "address": "安城市花ノ木町49-96",
     "phone": "0566-87-7407",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "(有)石川土建",
@@ -324,10 +411,13 @@ const officialListings = [
     "keywords": "(有)石川土建 小堤町5-11",
     "address": "安城市小堤町5-11",
     "phone": "0566-76-4092",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "石川仏檀店",
@@ -335,10 +425,13 @@ const officialListings = [
     "keywords": "石川仏檀店 花ノ木町8-22",
     "address": "安城市花ノ木町8-22",
     "phone": "0566-74-6383",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "一健家",
@@ -346,10 +439,13 @@ const officialListings = [
     "keywords": "一健家 御幸本町6-26",
     "address": "安城市御幸本町6-26",
     "phone": "090-5539-5586",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "（株）伊藤商店",
@@ -357,10 +453,13 @@ const officialListings = [
     "keywords": "（株）伊藤商店 御幸本町8－9",
     "address": "安城市御幸本町8－9",
     "phone": "0566-74-2224",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "（有)稲垣カメラ",
@@ -368,10 +467,13 @@ const officialListings = [
     "keywords": "（有)稲垣カメラ 花ノ木町1-9",
     "address": "安城市花ノ木町1-9",
     "phone": "0566-76-2928",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "稲垣茶舗",
@@ -379,10 +481,13 @@ const officialListings = [
     "keywords": "稲垣茶舗 花ノ木町8-21",
     "address": "安城市花ノ木町8-21",
     "phone": "0566-76-2531",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "（株）稲徳煙火製造所",
@@ -390,10 +495,13 @@ const officialListings = [
     "keywords": "（株）稲徳煙火製造所 桜町4-13",
     "address": "安城市桜町4-13",
     "phone": "0566-76-2770",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "いまいＦＰ不動産",
@@ -401,10 +509,13 @@ const officialListings = [
     "keywords": "いまいＦＰ不動産 御幸本町6-6",
     "address": "安城市御幸本町6-6",
     "phone": "0566-70-9014",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "岩堀洋品店",
@@ -412,10 +523,13 @@ const officialListings = [
     "keywords": "岩堀洋品店 御幸本町6-5",
     "address": "安城市御幸本町6-5",
     "phone": "0566-76-2682",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "大山康範税理士事務所",
@@ -423,10 +537,13 @@ const officialListings = [
     "keywords": "大山康範税理士事務所 御幸本町14-14日新堂書店２F",
     "address": "安城市御幸本町14-14日新堂書店２F",
     "phone": "0566-91-1820",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "奥井ビル",
@@ -434,10 +551,13 @@ const officialListings = [
     "keywords": "奥井ビル 御幸本町6-6",
     "address": "安城市御幸本町6-6",
     "phone": "0566-76-2215",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "(株)おけぎん",
@@ -445,10 +565,13 @@ const officialListings = [
     "keywords": "(株)おけぎん 花ノ木町11-13",
     "address": "安城市花ノ木町11-13",
     "phone": "0566-74-2855",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "おでん しみず",
@@ -456,10 +579,13 @@ const officialListings = [
     "keywords": "おでん　しみず 御幸本町7-3",
     "address": "安城市御幸本町7-3",
     "phone": "0566-76-6630",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "(有)オノダ（白栄舎本店）",
@@ -467,10 +593,13 @@ const officialListings = [
     "keywords": "(有)オノダ（白栄舎本店） 御幸本町11-18",
     "address": "安城市御幸本町11-18",
     "phone": "0566-76-2777",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "おり勝商店",
@@ -478,10 +607,13 @@ const officialListings = [
     "keywords": "おり勝商店 桜町14－25",
     "address": "安城市桜町14－25",
     "phone": "0566-76-2572",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "尾張屋",
@@ -489,10 +621,13 @@ const officialListings = [
     "keywords": "尾張屋 御幸本町16-3",
     "address": "安城市御幸本町16-3",
     "phone": "0566-75-1155",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "かとう電器株式会社",
@@ -500,10 +635,13 @@ const officialListings = [
     "keywords": "かとう電器株式会社 城南町2-6-9",
     "address": "安城市城南町2-6-9",
     "phone": "0566-71-3782",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "カフェ コーダ （CAFE CODA）",
@@ -511,10 +649,13 @@ const officialListings = [
     "keywords": "カフェ コーダ （CAFE   CODA） 御幸本町6-6",
     "address": "安城市御幸本町6-6",
     "phone": "0566-93-5015",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "寿呉服のかみや",
@@ -522,10 +663,13 @@ const officialListings = [
     "keywords": "寿呉服のかみや 百石町1-1-4",
     "address": "安城市百石町1-1-4",
     "phone": "0566-75-1128",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "神谷明文法律事務所",
@@ -533,10 +677,13 @@ const officialListings = [
     "keywords": "神谷明文法律事務所 御幸本町11-17",
     "address": "安城市御幸本町11-17",
     "phone": "0566-72-7281",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "神谷ふとん店",
@@ -544,10 +691,13 @@ const officialListings = [
     "keywords": "神谷ふとん店 花ノ木町10-23",
     "address": "安城市花ノ木町10-23",
     "phone": "0566-75-5954",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "川本",
@@ -555,10 +705,13 @@ const officialListings = [
     "keywords": "川本 御幸本町7-15",
     "address": "安城市御幸本町7-15",
     "phone": "0566-75-2081",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "九州理容",
@@ -566,10 +719,13 @@ const officialListings = [
     "keywords": "九州理容 御幸本町501番地10",
     "address": "安城市御幸本町501番地10",
     "phone": "0566-77-1440",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "靴・カバンの杉浦",
@@ -577,10 +733,13 @@ const officialListings = [
     "keywords": "靴・カバンの杉浦 本町16-12",
     "address": "安城市本町16-12",
     "phone": "0566-76-2346",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "特定非営利活動法人機能向上訓練センターゼロパワー",
@@ -588,10 +747,13 @@ const officialListings = [
     "keywords": "特定非営利活動法人機能向上訓練センターゼロパワー 御幸本町8-2",
     "address": "安城市御幸本町8-2",
     "phone": "0566-93-1122",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "健康堂施術所",
@@ -599,10 +761,13 @@ const officialListings = [
     "keywords": "健康堂施術所 御幸本町8-2",
     "address": "安城市御幸本町8-2",
     "phone": "0566-93-1913",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "功雅堂印店",
@@ -610,10 +775,13 @@ const officialListings = [
     "keywords": "功雅堂印店 御幸本町501-7",
     "address": "安城市御幸本町501-7",
     "phone": "0566-76-2914",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "コサキ（株）",
@@ -621,10 +789,13 @@ const officialListings = [
     "keywords": "コサキ（株） 御幸本町8－4（城南町2丁目11-4）",
     "address": "安城市御幸本町8－4（城南町2丁目11-4）",
     "phone": "0566-71-5000",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "寿証券（株）安城営業所",
@@ -632,10 +803,13 @@ const officialListings = [
     "keywords": "寿証券（株）安城営業所 御幸本町13-20",
     "address": "安城市御幸本町13-20",
     "phone": "0566-77-2111",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "（資）寿美屋",
@@ -643,10 +817,13 @@ const officialListings = [
     "keywords": "（資）寿美屋 御幸本町8-10",
     "address": "安城市御幸本町8-10",
     "phone": "0566-74-2528",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "こねこ",
@@ -654,10 +831,13 @@ const officialListings = [
     "keywords": "こねこ 御幸本町16-5",
     "address": "安城市御幸本町16-5",
     "phone": "0566-75-6265",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "小林時計",
@@ -665,10 +845,13 @@ const officialListings = [
     "keywords": "小林時計 御幸本町8-1",
     "address": "安城市御幸本町8-1",
     "phone": "0566-74-1010",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "サイクルショップ二藤",
@@ -676,10 +859,13 @@ const officialListings = [
     "keywords": "サイクルショップ二藤 御幸本町7-18",
     "address": "安城市御幸本町7-18",
     "phone": "0566-76-2024",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "栄寿司",
@@ -687,10 +873,13 @@ const officialListings = [
     "keywords": "栄寿司 御幸本町7-16",
     "address": "安城市御幸本町7-16",
     "phone": "0566-75-1255",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "桜井屋",
@@ -698,10 +887,13 @@ const officialListings = [
     "keywords": "桜井屋 花ノ木町10-20",
     "address": "安城市花ノ木町10-20",
     "phone": "0566-76-2327",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "佐鳴予備校南安城校",
@@ -709,10 +901,13 @@ const officialListings = [
     "keywords": "佐鳴予備校南安城校 小堤町8-6",
     "address": "安城市小堤町8-6",
     "phone": "0566-76-3211",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "隠れ屋韓国ジフン",
@@ -720,10 +915,13 @@ const officialListings = [
     "keywords": "隠れ屋韓国ジフン 御幸本町13-7",
     "address": "安城市御幸本町13-7",
     "phone": "0566-91-8131",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "ジフンsweets",
@@ -731,10 +929,13 @@ const officialListings = [
     "keywords": "ジフンsweets 御幸本町8-8",
     "address": "安城市御幸本町8-8",
     "phone": "090-5454-6547",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "大衆居酒屋じゅーじゅー",
@@ -742,10 +943,13 @@ const officialListings = [
     "keywords": "大衆居酒屋じゅーじゅー 御幸本町16-5",
     "address": "安城市御幸本町16-5",
     "phone": "080-1625-4814",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "秀哩",
@@ -753,10 +957,13 @@ const officialListings = [
     "keywords": "秀哩 御幸本町16-11",
     "address": "安城市御幸本町16-11",
     "phone": "0566-76-5231",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "ジョイ美容室",
@@ -764,10 +971,13 @@ const officialListings = [
     "keywords": "ジョイ美容室 御幸本町7-1",
     "address": "安城市御幸本町7-1",
     "phone": "0566-75-3441",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "正音堂",
@@ -775,10 +985,13 @@ const officialListings = [
     "keywords": "正音堂 御幸本町17-15",
     "address": "安城市御幸本町17-15",
     "phone": "0566-75-5561",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "城西生花店",
@@ -786,10 +999,13 @@ const officialListings = [
     "keywords": "城西生花店 御幸本町11-10",
     "address": "安城市御幸本町11-10",
     "phone": "0566-75-1050",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "白谷会計事務所",
@@ -797,10 +1013,13 @@ const officialListings = [
     "keywords": "白谷会計事務所 城南町1-15-8",
     "address": "安城市城南町1-15-8",
     "phone": "0566-74-1005",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "（株）スーベニール",
@@ -808,10 +1027,13 @@ const officialListings = [
     "keywords": "（株）スーベニール 御幸本町14-1",
     "address": "安城市御幸本町14-1",
     "phone": "0566-76-1101",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "（株）杉浦時計店",
@@ -819,10 +1041,13 @@ const officialListings = [
     "keywords": "（株）杉浦時計店 御幸本町8－4",
     "address": "安城市御幸本町8－4",
     "phone": "0566-75-5551",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "(有)スギヤマカーサービス",
@@ -830,10 +1055,13 @@ const officialListings = [
     "keywords": "(有)スギヤマカーサービス 桜町5－6",
     "address": "安城市桜町5－6",
     "phone": "0566-75-1207",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "株式会社清和自動車",
@@ -841,10 +1069,13 @@ const officialListings = [
     "keywords": "株式会社清和自動車 小堤町17-4",
     "address": "安城市小堤町17-4",
     "phone": "0566-75-0786",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "千賀落花生店",
@@ -852,10 +1083,13 @@ const officialListings = [
     "keywords": "千賀落花生店 桜町17-2",
     "address": "安城市桜町17-2",
     "phone": "0566-76-3450",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "損害保険ジャパン（株）愛知東支店安城支店",
@@ -863,10 +1097,13 @@ const officialListings = [
     "keywords": "損害保険ジャパン（株）愛知東支店安城支店 御幸本町11-27",
     "address": "安城市御幸本町11-27",
     "phone": "0566-76-8165",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "高橋武道具",
@@ -874,10 +1111,13 @@ const officialListings = [
     "keywords": "高橋武道具 百石町1-8-19",
     "address": "安城市百石町1-8-19",
     "phone": "0566-76-3108",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "竹之内かご店",
@@ -885,10 +1125,13 @@ const officialListings = [
     "keywords": "竹之内かご店 御幸本町6-5",
     "address": "安城市御幸本町6-5",
     "phone": "0566-76-3701",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "谷山写真館",
@@ -896,10 +1139,13 @@ const officialListings = [
     "keywords": "谷山写真館 御幸本町16-15",
     "address": "安城市御幸本町16-15",
     "phone": "0566-76-2035",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "ビューティーサロン タモト",
@@ -907,10 +1153,13 @@ const officialListings = [
     "keywords": "ビューティーサロン　タモト 御幸本町8-20",
     "address": "安城市御幸本町8-20",
     "phone": "0566-75-6006",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "(有)中日新聞安城専売所",
@@ -918,10 +1167,13 @@ const officialListings = [
     "keywords": "(有)中日新聞安城専売所 桜町5-11",
     "address": "安城市桜町5-11",
     "phone": "0566-75-9731",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "知覧",
@@ -929,10 +1181,13 @@ const officialListings = [
     "keywords": "知覧 御幸本町7-20",
     "address": "安城市御幸本町7-20",
     "phone": "0566-77-1375",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "つき山",
@@ -940,10 +1195,13 @@ const officialListings = [
     "keywords": "つき山 御幸本町7-14",
     "address": "安城市御幸本町7-14",
     "phone": "0566-74-5828",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "つばさや安城駅前店",
@@ -951,10 +1209,13 @@ const officialListings = [
     "keywords": "つばさや安城駅前店 御幸本町7-8",
     "address": "安城市御幸本町7-8",
     "phone": "0566-77-1515",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "鉄板たこ焼きBarマリン",
@@ -962,21 +1223,27 @@ const officialListings = [
     "keywords": "鉄板たこ焼きBarマリン 御幸本町16-1",
     "address": "安城市御幸本町16-1",
     "phone": "090-3422-0524",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "とうふや豆蔵 安城店",
     "category": "食品",
-    "keywords": "とうふや豆蔵　安城店 花ノ木町8-24",
-    "address": "安城市花ノ木町8-24",
+    "keywords": "豆腐 とうふ 惣菜",
+    "address": "安城市花ノ木町8番24",
     "phone": "0566-91-3123",
-    "status": "現行掲載",
+    "status": "公式情報確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "公式サイトで名称・住所・電話を確認。営業日時は利用前にご確認ください。",
+    "source": "https://www.otoufu.co.jp/store/6029/",
+    "checkedAt": "2026-09-12",
+    "verificationType": "official",
+    "sourceLabel": "事業者の公式情報"
   },
   {
     "name": "ドラッグスギヤマ安城店",
@@ -984,10 +1251,13 @@ const officialListings = [
     "keywords": "ドラッグスギヤマ安城店 城南町1-4-9",
     "address": "安城市城南町1-4-9",
     "phone": "0566-71-2771",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "鳥嘉",
@@ -995,10 +1265,13 @@ const officialListings = [
     "keywords": "鳥嘉 御幸本町6-4",
     "address": "安城市御幸本町6-4",
     "phone": "0566-76-2325",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "とろり天使のわらびもち 安城店",
@@ -1006,10 +1279,13 @@ const officialListings = [
     "keywords": "とろり天使のわらびもち　安城店 御幸本町8-8",
     "address": "安城市御幸本町8-8",
     "phone": "0566-95-7015",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "中尾かなもの",
@@ -1017,10 +1293,13 @@ const officialListings = [
     "keywords": "中尾かなもの 御幸本町8－9",
     "address": "安城市御幸本町8－9",
     "phone": "0566-74-2277",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "永谷文人税理士事務所",
@@ -1028,10 +1307,13 @@ const officialListings = [
     "keywords": "永谷文人税理士事務所 御幸本町3-23",
     "address": "安城市御幸本町3-23",
     "phone": "0566-75-2251",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "日新堂書店",
@@ -1039,10 +1321,13 @@ const officialListings = [
     "keywords": "日新堂書店 御幸本町14‐14",
     "address": "安城市御幸本町14‐14",
     "phone": "0566-75-2028",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "（株）二村経営",
@@ -1050,10 +1335,13 @@ const officialListings = [
     "keywords": "（株）二村経営 御幸本町８－４N-BUILDING@ANJO２F",
     "address": "安城市御幸本町８－４N-BUILDING@ANJO２F",
     "phone": "080-3042-2642",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "丹羽歯科医院",
@@ -1061,10 +1349,13 @@ const officialListings = [
     "keywords": "丹羽歯科医院 御幸本町15-8",
     "address": "安城市御幸本町15-8",
     "phone": "0566-76-2561",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "博文堂事務機店",
@@ -1072,10 +1363,13 @@ const officialListings = [
     "keywords": "博文堂事務機店 御幸本町8-8",
     "address": "安城市御幸本町8-8",
     "phone": "0566-75-8611",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "パニーノ",
@@ -1083,10 +1377,13 @@ const officialListings = [
     "keywords": "パニーノ 御幸本町18-10",
     "address": "安城市御幸本町18-10",
     "phone": "0566-72-4848",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "浜焼きdining カキヤ安城店",
@@ -1094,10 +1391,13 @@ const officialListings = [
     "keywords": "浜焼きdining   カキヤ安城店 御幸本町14-13",
     "address": "安城市御幸本町14-13",
     "phone": "0566-95-9206",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "ブティックはらだ",
@@ -1105,10 +1405,13 @@ const officialListings = [
     "keywords": "ブティックはらだ 御幸本町18-11",
     "address": "安城市御幸本町18-11",
     "phone": "0566-76-2497",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "はんの川島印房",
@@ -1116,10 +1419,13 @@ const officialListings = [
     "keywords": "はんの川島印房 花ノ木町1-10",
     "address": "安城市花ノ木町1-10",
     "phone": "0566-76-2863",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "ばんや",
@@ -1127,10 +1433,13 @@ const officialListings = [
     "keywords": "ばんや 御幸本町7-17",
     "address": "安城市御幸本町7-17",
     "phone": "0566-74-7112",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "（株）百錬堂",
@@ -1138,10 +1447,13 @@ const officialListings = [
     "keywords": "（株）百錬堂 花ノ木町2-14",
     "address": "安城市花ノ木町2-14",
     "phone": "0566-74-2255",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "ビリーズヘアー",
@@ -1149,10 +1461,13 @@ const officialListings = [
     "keywords": "ビリーズヘアー 御幸本町16-15",
     "address": "安城市御幸本町16-15",
     "phone": "0566-76-3922",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "広瀬（株）",
@@ -1160,10 +1475,13 @@ const officialListings = [
     "keywords": "広瀬（株） 本町14－11",
     "address": "安城市本町14－11",
     "phone": "0566-75-5331",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "広千",
@@ -1171,10 +1489,13 @@ const officialListings = [
     "keywords": "広千 御幸本町14-1",
     "address": "安城市御幸本町14-1",
     "phone": "0566-74-1121",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "福田 五郎",
@@ -1182,10 +1503,13 @@ const officialListings = [
     "keywords": "福田　五郎 御幸本町12-20",
     "address": "安城市御幸本町12-20",
     "phone": "090-9261-6374",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "富士屋呉服",
@@ -1193,10 +1517,13 @@ const officialListings = [
     "keywords": "富士屋呉服 御幸本町17-1",
     "address": "安城市御幸本町17-1",
     "phone": "0566-76-2257",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "ふじや旅館",
@@ -1204,10 +1531,13 @@ const officialListings = [
     "keywords": "ふじや旅館 御幸本町6-7",
     "address": "安城市御幸本町6-7",
     "phone": "0566-76-2631",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "フットバランス",
@@ -1215,10 +1545,13 @@ const officialListings = [
     "keywords": "フットバランス 御幸本町13-19",
     "address": "安城市御幸本町13-19",
     "phone": "0566-75-1884",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "富士産業",
@@ -1226,10 +1559,13 @@ const officialListings = [
     "keywords": "富士産業 御幸本町17-13",
     "address": "安城市御幸本町17-13",
     "phone": "0566-74-2211",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "ヘアーサロンスズキ",
@@ -1237,10 +1573,13 @@ const officialListings = [
     "keywords": "ヘアーサロンスズキ 花ノ木町1-2",
     "address": "安城市花ノ木町1-2",
     "phone": "0566-76-3800",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "北京 小堤店",
@@ -1248,10 +1587,13 @@ const officialListings = [
     "keywords": "北京　小堤店 小堤町7－12",
     "address": "安城市小堤町7－12",
     "phone": "0566-76-2418",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "ほうき星",
@@ -1259,10 +1601,13 @@ const officialListings = [
     "keywords": "ほうき星 桜町3－9",
     "address": "安城市桜町3－9",
     "phone": "0566-76-6969",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "穂積堂",
@@ -1270,10 +1615,13 @@ const officialListings = [
     "keywords": "穂積堂 花ノ木町8-23",
     "address": "安城市花ノ木町8-23",
     "phone": "0566-76-2505",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "ホソイメガネ",
@@ -1281,10 +1629,13 @@ const officialListings = [
     "keywords": "ホソイメガネ 御幸本町1-3",
     "address": "安城市御幸本町1-3",
     "phone": "0566-76-2350",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "ほのか",
@@ -1292,10 +1643,13 @@ const officialListings = [
     "keywords": "ほのか 御幸本町7-14",
     "address": "安城市御幸本町7-14",
     "phone": "0566-76-5771",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "まいどおおきに安城小堤食堂",
@@ -1303,10 +1657,13 @@ const officialListings = [
     "keywords": "まいどおおきに安城小堤食堂 小堤町16-14",
     "address": "安城市小堤町16-14",
     "phone": "0566-72-0730",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "松美屋",
@@ -1314,10 +1671,13 @@ const officialListings = [
     "keywords": "松美屋 御幸本町14-2",
     "address": "安城市御幸本町14-2",
     "phone": "0566-76-2623",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "丸杉",
@@ -1325,10 +1685,13 @@ const officialListings = [
     "keywords": "丸杉 御幸本町7-15",
     "address": "安城市御幸本町7-15",
     "phone": "0566-76-6261",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "丸長",
@@ -1336,10 +1699,13 @@ const officialListings = [
     "keywords": "丸長 御幸本町7-24",
     "address": "安城市御幸本町7-24",
     "phone": "0566-74-2544",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "司法書士 三浦事務所",
@@ -1347,10 +1713,13 @@ const officialListings = [
     "keywords": "司法書士　三浦事務所 御幸本町8-10",
     "address": "安城市御幸本町8-10",
     "phone": "0566-93-1952",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "三浦電気株式会社",
@@ -1358,10 +1727,13 @@ const officialListings = [
     "keywords": "三浦電気株式会社 小堤町9-6",
     "address": "安城市小堤町9-6",
     "phone": "0566-74-4186",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "三浦仏壇店",
@@ -1369,10 +1741,13 @@ const officialListings = [
     "keywords": "三浦仏壇店 城南町1-17-19",
     "address": "安城市城南町1-17-19",
     "phone": "0566-76-3264",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "蜜柑",
@@ -1380,10 +1755,13 @@ const officialListings = [
     "keywords": "蜜柑 御幸本町18-12",
     "address": "安城市御幸本町18-12",
     "phone": "0566-74-4500",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "ミニミニ安城店",
@@ -1391,10 +1769,13 @@ const officialListings = [
     "keywords": "ミニミニ安城店 小堤町17-8",
     "address": "安城市小堤町17-8",
     "phone": "0566-77-3232",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "六ッ美食堂",
@@ -1402,10 +1783,13 @@ const officialListings = [
     "keywords": "六ッ美食堂 桜町17-3",
     "address": "安城市桜町17-3",
     "phone": "0566-76-3352",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "医療法人 もりかわ皮フ科",
@@ -1413,10 +1797,13 @@ const officialListings = [
     "keywords": "医療法人　もりかわ皮フ科 御幸本町14-15",
     "address": "安城市御幸本町14-15",
     "phone": "0566-77-0003",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "ハマイカリ山口旭薬局",
@@ -1424,10 +1811,13 @@ const officialListings = [
     "keywords": "ハマイカリ山口旭薬局 御幸本町14-3",
     "address": "安城市御幸本町14-3",
     "phone": "0566-77-3998",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "(有)山本モータース工場",
@@ -1435,10 +1825,13 @@ const officialListings = [
     "keywords": "(有)山本モータース工場 桜町4－2",
     "address": "安城市桜町4－2",
     "phone": "0566-76-5108",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "花の店 友楽園",
@@ -1446,10 +1839,13 @@ const officialListings = [
     "keywords": "花の店　友楽園 御幸本町15-1",
     "address": "安城市御幸本町15-1",
     "phone": "0566-74-1187",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "吉野屋",
@@ -1457,10 +1853,13 @@ const officialListings = [
     "keywords": "吉野屋 御幸本町7-15",
     "address": "安城市御幸本町7-15",
     "phone": "0566-74-1717",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "リバートーン",
@@ -1468,10 +1867,13 @@ const officialListings = [
     "keywords": "リバートーン 花ノ木町11-14",
     "address": "安城市花ノ木町11-14",
     "phone": "0566-76-8177",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "有限会社 輪天堂",
@@ -1479,10 +1881,13 @@ const officialListings = [
     "keywords": "有限会社　輪天堂 小堤町9‐26エクセントビル石川102",
     "address": "安城市小堤町9‐26エクセントビル石川102",
     "phone": "0566-79-0350",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "ブティック レミュール",
@@ -1490,10 +1895,13 @@ const officialListings = [
     "keywords": "ブティック　レミュール 御幸本町8-20",
     "address": "安城市御幸本町8-20",
     "phone": "0566-76-5966",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "（株）渡辺設計",
@@ -1501,10 +1909,13 @@ const officialListings = [
     "keywords": "（株）渡辺設計 御幸本町11-18",
     "address": "安城市御幸本町11-18",
     "phone": "0566-74-1511",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "JAあいち中央本店",
@@ -1512,10 +1923,13 @@ const officialListings = [
     "keywords": "JAあいち中央本店 御幸本町9-6",
     "address": "安城市御幸本町9-6",
     "phone": "0566-73-5500",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "大垣共立銀行",
@@ -1523,10 +1937,13 @@ const officialListings = [
     "keywords": "大垣共立銀行 御幸本町7-23",
     "address": "安城市御幸本町7-23",
     "phone": "0566-76-5381",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "岡崎信用金庫 安城支店",
@@ -1534,10 +1951,13 @@ const officialListings = [
     "keywords": "岡崎信用金庫　安城支店 御幸本町11-29",
     "address": "安城市御幸本町11-29",
     "phone": "0566-76-2191",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "三十三銀行安城支店",
@@ -1545,10 +1965,13 @@ const officialListings = [
     "keywords": "三十三銀行安城支店 花ノ木町15-9",
     "address": "安城市花ノ木町15-9",
     "phone": "0566-74-2844",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "名古屋銀行安城支店",
@@ -1556,10 +1979,13 @@ const officialListings = [
     "keywords": "名古屋銀行安城支店 花ノ木町5-16",
     "address": "安城市花ノ木町5-16",
     "phone": "0566-77-6511",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "碧海信用金庫 本店",
@@ -1567,10 +1993,13 @@ const officialListings = [
     "keywords": "碧海信用金庫 本店 御本町15-1",
     "address": "安城市御本町15-1",
     "phone": "0566-77-8111",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "三菱東京UFJ銀行",
@@ -1578,10 +2007,13 @@ const officialListings = [
     "keywords": "三菱東京UFJ銀行 御幸本町6-1",
     "address": "安城市御幸本町6-1",
     "phone": "0566-77-6115",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "リライブ",
@@ -1589,10 +2021,13 @@ const officialListings = [
     "keywords": "リライブ 御幸本町16-4",
     "address": "安城市御幸本町16-4",
     "phone": "0566-75-9858",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "dot.",
@@ -1600,10 +2035,13 @@ const officialListings = [
     "keywords": "dot. 桜町16－18安城第15東海ビル1F",
     "address": "安城市桜町16－18安城第15東海ビル1F",
     "phone": "09091700807",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "漬物Bar 香香",
@@ -1611,10 +2049,13 @@ const officialListings = [
     "keywords": "漬物Bar 香香 御幸本町16-5",
     "address": "安城市御幸本町16-5",
     "phone": "09091700807",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "加圧コンディショニングPLOM",
@@ -1622,10 +2063,13 @@ const officialListings = [
     "keywords": "加圧コンディショニングPLOM 花ノ木町6-3 マノアール",
     "address": "安城市花ノ木町6-3 マノアール",
     "phone": "09048650930",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "八百文",
@@ -1633,10 +2077,13 @@ const officialListings = [
     "keywords": "八百文 御幸本町16-6",
     "address": "安城市御幸本町16-6",
     "phone": "0566-76-2535",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
   },
   {
     "name": "Chaka-Chaka",
@@ -1644,10 +2091,96 @@ const officialListings = [
     "keywords": "Chaka-Chaka 御幸本町6-2",
     "address": "安城市御幸本町6-2",
     "phone": "09049750516",
-    "status": "現行掲載",
+    "status": "商店街掲載確認",
     "statusClass": "",
-    "note": "安城市つながる商店街の加盟店一覧を2026年9月12日に確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list"
+    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://anjo-tsunagari.com/shop_list",
+    "checkedAt": "2026-09-12",
+    "verificationType": "directory",
+    "sourceLabel": "商店街の加盟店一覧"
+  },
+  {
+    "name": "和泉そうめん丈山の里",
+    "category": "食品",
+    "address": "安城市和泉町大北58番地2",
+    "phone": "0566-92-2655",
+    "source": "https://www.izumi-somen.co.jp/p_kaisya/",
+    "keywords": "そうめん 素麺 手延べ麺",
+    "status": "公式情報確認",
+    "statusClass": "",
+    "checkedAt": "2026-09-12",
+    "verificationType": "official",
+    "sourceLabel": "事業者の公式情報",
+    "note": "公式サイトで名称・住所・電話を確認。営業日時は利用前にご確認ください。"
+  },
+  {
+    "name": "いずみ庵 本店",
+    "category": "飲食・仕出し",
+    "address": "安城市和泉町大北58番地2",
+    "phone": "0566-92-1232",
+    "source": "https://izumian-honten.jimdofree.com/",
+    "keywords": "そうめん うどん 和食",
+    "status": "公式情報確認",
+    "statusClass": "",
+    "checkedAt": "2026-09-12",
+    "verificationType": "official",
+    "sourceLabel": "事業者の公式情報",
+    "note": "公式サイトで名称・住所・電話を確認。営業日時は利用前にご確認ください。"
+  },
+  {
+    "name": "たつみ麺店",
+    "category": "食品",
+    "address": "安城市和泉町中本郷220-1",
+    "phone": "0566-92-0138",
+    "source": "https://tatsumi-shop.com/hpgen/HPB/shop/business.html",
+    "keywords": "そうめん 手延べ麺 直売",
+    "status": "公式情報確認",
+    "statusClass": "",
+    "checkedAt": "2026-09-12",
+    "verificationType": "official",
+    "sourceLabel": "事業者の公式情報",
+    "note": "公式サイトで名称・住所・電話を確認。営業日時は利用前にご確認ください。"
+  },
+  {
+    "name": "とうふや豆蔵 ららぽーと安城店",
+    "category": "食品",
+    "address": "安城市大東町9-30 ららぽーと安城1F",
+    "phone": "0566-70-9098",
+    "source": "https://www.otoufu.co.jp/store/10854/",
+    "keywords": "豆腐 とうふ 惣菜",
+    "status": "公式情報確認",
+    "statusClass": "",
+    "checkedAt": "2026-09-12",
+    "verificationType": "official",
+    "sourceLabel": "事業者の公式情報",
+    "note": "公式サイトで名称・住所・電話を確認。営業日時は利用前にご確認ください。"
+  },
+  {
+    "name": "Cafe Den & Neighbors",
+    "category": "飲食・仕出し",
+    "address": "安城市御幸本町504番地1 アンフォーレ1F",
+    "phone": "0566-74-5774",
+    "source": "https://www.otoufu.co.jp/store/6410/",
+    "keywords": "カフェデン ネイバーズ カフェ ランチ",
+    "status": "公式情報確認",
+    "statusClass": "",
+    "checkedAt": "2026-09-12",
+    "verificationType": "official",
+    "sourceLabel": "事業者の公式情報",
+    "note": "公式サイトで名称・住所・電話を確認。営業日時は利用前にご確認ください。"
+  },
+  {
+    "name": "大見工業株式会社 本社・工場",
+    "category": "建設・工業",
+    "address": "安城市新田町新栄113-1",
+    "phone": "0566-75-8117",
+    "source": "https://www.omikogyo.co.jp/outline/",
+    "keywords": "精密切削工具 電設作業工具 製造",
+    "status": "公式情報確認",
+    "statusClass": "",
+    "checkedAt": "2026-09-12",
+    "verificationType": "official",
+    "sourceLabel": "事業者の公式情報",
+    "note": "公式サイトで名称・住所・電話を確認。営業日時は利用前にご確認ください。"
   }
 ];
-
