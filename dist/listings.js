@@ -1666,18 +1666,18 @@ const officialListings = [
     "sourceLabel": "商店街の加盟店一覧"
   },
   {
-    "name": "松美屋",
-    "category": "ショップ",
-    "keywords": "松美屋 御幸本町14-2",
+    "name": "おかずの松美屋",
+    "category": "食品",
+    "keywords": "松美屋 弁当 惣菜 御幸本町",
     "address": "安城市御幸本町14-2",
     "phone": "0566-76-2623",
-    "status": "商店街掲載確認",
+    "status": "公式サイト確認",
     "statusClass": "",
-    "note": "商店街一覧で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
-    "source": "https://anjo-tsunagari.com/shop_list",
-    "checkedAt": "2026-09-12",
-    "verificationType": "directory",
-    "sourceLabel": "商店街の加盟店一覧"
+    "note": "公式サイトで店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。",
+    "source": "https://matsumiya.cloudfree.jp/",
+    "checkedAt": "2026-09-13",
+    "verificationType": "official",
+    "sourceLabel": "店舗の公式サイト"
   },
   {
     "name": "丸杉",
@@ -3754,5 +3754,6 @@ const officialListings = [
 {"name":"安城牛乳販売（株）","category":"食品","address":"安城市篠目町1丁目11-28","phone":"0566-77-3325","source":"https://baseconnect.in/companies/9fa627e9-7859-4d59-bbff-0fc509e68c9d","keywords":"牛乳販売 宅配 篠目町","status":"公式情報確認","statusClass":"","checkedAt":"2026-09-13","verificationType":"official","sourceLabel":"企業情報サイトの掲載情報","note":"電話番号が旧情報（0566-76-8821）と相違。企業情報サイト記載の現行番号を採用。利用前にご確認ください。"},
 {"name":"深津商店","category":"小売","address":"安城市朝日町21-17","phone":"0566-76-2612","source":"https://itp.ne.jp/info/238090826130080550/","keywords":"こんにゃく 朝日町商店街","status":"公式情報確認","statusClass":"","checkedAt":"2026-09-13","verificationType":"official","sourceLabel":"タウンページの掲載情報","note":"タウンページで名称・住所・電話の掲載を確認。"},
 {"name":"いずみショップ","category":"食品","address":"安城市大山町2丁目9-24","phone":"0566-74-3310","source":"https://izumitenobe.com/?mode=f1","keywords":"和泉そうめん 食品卸 大山町","status":"公式サイト確認","statusClass":"","checkedAt":"2026-09-13","verificationType":"official","sourceLabel":"事業者の公式サイト","note":"公式サイトで名称・住所・電話の掲載を確認。創業40年。"},
-{"name":"玉木屋","category":"食品","address":"安城市御幸本町7-12","phone":"0566-74-1188","source":"https://www.tamakiya-anjo.jp/","keywords":"惣菜 カリーパン 御幸本町","status":"公式サイト確認","statusClass":"","checkedAt":"2026-09-13","verificationType":"official","sourceLabel":"事業者の公式サイト","note":"公式サイトで名称・住所・電話の掲載を確認。創業85年以上。"}
+{"name":"玉木屋","category":"食品","address":"安城市御幸本町7-12","phone":"0566-74-1188","source":"https://www.tamakiya-anjo.jp/","keywords":"惣菜 カリーパン 御幸本町","status":"公式サイト確認","statusClass":"","checkedAt":"2026-09-13","verificationType":"official","sourceLabel":"事業者の公式サイト","note":"公式サイトで名称・住所・電話の掲載を確認。創業85年以上。"},
+{"name":"みつ丸米穀店","category":"食品","keywords":"米 精米 緑町","address":"安城市緑町2-9-4","phone":"0566-76-0550","status":"商店街掲載確認","statusClass":"","note":"三河安城商店街の店舗情報で店名・住所・電話の掲載を確認。営業日時は利用前にご確認ください。","source":"https://mikawaanjo.com/shop/126/","checkedAt":"2026-09-13","verificationType":"directory","sourceLabel":"三河安城商店街振興組合の店舗情報"}
 ];
