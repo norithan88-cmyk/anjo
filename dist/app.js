@@ -67,7 +67,9 @@ function render(){
     <p class="address">住所　${escapeHtml(item.address)}</p><p class="phone">電話　${escapeHtml(item.phone)}</p>
     <p class="checked-date">${item.checkedAt ? `情報確認日：<time datetime="${escapeHtml(item.checkedAt)}">${escapeHtml(item.checkedAt.replaceAll('-','/'))}</time>` : `調査日：${escapeHtml(item.reviewedAt.replaceAll('-','/'))}（確認継続中）`}</p>
     <p class="listing-note">${escapeHtml(item.note)}</p>
-    <a class="source-link" href="${escapeHtml(item.source)}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.sourceLabel)} ↗</a>
+    ${item.source
+      ? `<a class="source-link" href="${escapeHtml(item.source)}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.sourceLabel)} ↗</a>`
+      : `<p class="source-label">${escapeHtml(item.sourceLabel)}</p>`}
   </article>`).join('');
   empty.hidden = filtered.length !== 0;
   moreButton.hidden = visible.length >= filtered.length;
