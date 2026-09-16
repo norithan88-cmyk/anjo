@@ -101,6 +101,11 @@ add_action('wp_ajax_anjod_fix_source',function(){
     try{
         $rows=json_decode(file_get_contents(__DIR__.'/data.json'),true);
         if(!is_array($rows))throw new Exception('同梱データを読み込めません。');
+        // Restart from the top whenever data.json's row count changes, so newly added rows aren't skipped by a stale offset.
+        if((int)get_option('anjod_fix_source_total',0)!==count($rows)){
+            update_option('anjod_fix_source_offset',0,false);
+            update_option('anjod_fix_source_total',count($rows),false);
+        }
         $offset=(int)get_option('anjod_fix_source_offset',0);$end=min($offset+50,count($rows));
         $updated=0;
         for($i=$offset;$i<$end;$i++){
