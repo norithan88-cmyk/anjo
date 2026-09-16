@@ -234,8 +234,22 @@ add_filter('document_title_parts',function($parts){
     if(is_singular()&&has_shortcode(get_post_field('post_content',get_queried_object_id()),'anjo_directory')){
         $parts=array('title'=>'安城ナビ｜安城市のお店・企業を検索');
     }
+    if(is_singular('anjod_shop')){
+        $id=get_queried_object_id();
+        $town=anjod_town_from_address(get_post_meta($id,'_anjod_address',true));
+        $title=get_the_title($id).' | '.($town?:'安城市').' | 安城ナビ';
+        $parts=array('title'=>$title);
+    }
     return $parts;
 });
+function anjod_town_from_address($address){
+    $address=(string)$address;
+    if(preg_match('/(安城市[^0-9０-９\-－]*)/u',$address,$m)){
+        $town=trim($m[1]);
+        return $town!=='安城市'?$town:'安城市';
+    }
+    return '';
+}
 // Sort by title while ignoring a leading corporate-form prefix like (有)(株) so 50-on order isn't broken by symbols.
 add_filter('posts_orderby',function($orderby,$q){
     if(!$q->get('anjod_search')||$q->get('orderby')!=='title')return $orderby;
