@@ -12,10 +12,17 @@ function anjod_fields() {
 function anjod_init() {
     register_post_type('anjod_shop',array('labels'=>array('name'=>'店舗情報','singular_name'=>'店舗情報','add_new'=>'店舗を追加','add_new_item'=>'店舗を追加','edit_item'=>'店舗情報を編集','search_items'=>'店舗を検索','all_items'=>'店舗一覧'),'public'=>true,'show_in_rest'=>false,'menu_icon'=>'dashicons-store','supports'=>array('title','editor','revisions'),'rewrite'=>array('slug'=>'anjo-shop'),'has_archive'=>false));
     register_taxonomy('anjod_category','anjod_shop',array('label'=>'業種','public'=>true,'hierarchical'=>true,'show_admin_column'=>true,'rewrite'=>false));
+    register_taxonomy('anjod_tag','anjod_shop',array('label'=>'特徴','public'=>true,'hierarchical'=>false,'show_admin_column'=>true,'show_ui'=>true,'rewrite'=>false));
     register_post_type('anjod_fixreq',array('labels'=>array('name'=>'修正依頼','singular_name'=>'修正依頼','all_items'=>'修正依頼一覧'),'public'=>false,'show_ui'=>true,'show_in_menu'=>'edit.php?post_type=anjod_shop','show_in_rest'=>false,'menu_icon'=>'dashicons-email-alt','supports'=>array('title'),'capabilities'=>array('create_posts'=>'do_not_allow'),'map_meta_cap'=>true));
 }
 add_action('init','anjod_init');
-register_activation_hook(__FILE__,function(){anjod_init();flush_rewrite_rules();});
+function anjod_seed_tags(){
+    foreach(array('駐車場あり','テイクアウト可','子ども連れOK') as $t){
+        if(!term_exists($t,'anjod_tag'))wp_insert_term($t,'anjod_tag');
+    }
+}
+add_action('init',function(){anjod_seed_tags();},20);
+register_activation_hook(__FILE__,function(){anjod_init();anjod_seed_tags();flush_rewrite_rules();});
 register_deactivation_hook(__FILE__,function(){flush_rewrite_rules();});
 add_action('add_meta_boxes',function(){add_meta_box('anjod_details','店舗の基本情報','anjod_metabox','anjod_shop','normal','high');});
 function anjod_metabox($post) {
@@ -258,6 +265,7 @@ function anjod_card($id){
       <h3><a href="<?php echo esc_url(get_permalink($id)); ?>"><?php echo esc_html(get_the_title($id)); ?></a></h3>
       <p class="anjod-status"><?php echo esc_html($v['status']?:'営業状況要確認'); ?></p>
       <dl><dt>住所</dt><dd><?php echo esc_html($v['address']); ?></dd><dt>電話</dt><dd><?php echo esc_html($v['phone']?:'要確認'); ?></dd></dl>
+      <?php $features=get_the_terms($id,'anjod_tag'); if($features&&!is_wp_error($features)): ?><ul class="anjod-features"><?php foreach($features as $f){ ?><li><?php echo esc_html($f->name); ?></li><?php } ?></ul><?php endif; ?>
       <?php if(is_singular('anjod_shop')&&$v['address']): ?><div class="anjod-map"><iframe src="https://www.google.com/maps?q=<?php echo rawurlencode($v['address']); ?>&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="<?php echo esc_attr(get_the_title($id)); ?>の地図"></iframe></div><?php endif; ?>
       <?php if($v['checkedAt']): ?><p>情報確認日：<?php echo esc_html($v['checkedAt']); ?></p><?php elseif($v['reviewedAt']): ?><p>調査日：<?php echo esc_html($v['reviewedAt']); ?>（営業状況は要確認）</p><?php endif; ?>
       <?php if($v['note']): ?><p class="anjod-note"><?php echo nl2br(esc_html($v['note'])); ?></p><?php endif; ?>
@@ -268,20 +276,25 @@ function anjod_card($id){
 add_shortcode('anjo_directory',function(){
     $search=isset($_GET['anjo_q'])&&is_scalar($_GET['anjo_q'])?sanitize_text_field(wp_unslash($_GET['anjo_q'])):'';
     $cat=isset($_GET['anjo_cat'])?absint($_GET['anjo_cat']):0;$page=isset($_GET['anjo_page'])?max(1,absint($_GET['anjo_page'])):1;
+    $tagIds=isset($_GET['anjo_tag'])&&is_array($_GET['anjo_tag'])?array_map('absint',wp_unslash($_GET['anjo_tag'])):array();
     $args=array('post_type'=>'anjod_shop','post_status'=>'publish','posts_per_page'=>18,'paged'=>$page,'orderby'=>'title','order'=>'ASC','s'=>$search,'anjod_search'=>true);
-    if($cat)$args['tax_query']=array(array('taxonomy'=>'anjod_category','field'=>'term_id','terms'=>$cat));
-    $q=new WP_Query($args);$terms=get_terms(array('taxonomy'=>'anjod_category','hide_empty'=>true));$base=get_permalink(get_queried_object_id());
+    $taxQuery=array();
+    if($cat)$taxQuery[]=array('taxonomy'=>'anjod_category','field'=>'term_id','terms'=>$cat);
+    foreach($tagIds as $tid)if($tid)$taxQuery[]=array('taxonomy'=>'anjod_tag','field'=>'term_id','terms'=>$tid);
+    if($taxQuery){$taxQuery['relation']='AND';$args['tax_query']=$taxQuery;}
+    $q=new WP_Query($args);$terms=get_terms(array('taxonomy'=>'anjod_category','hide_empty'=>true));$tags=get_terms(array('taxonomy'=>'anjod_tag','hide_empty'=>false));$base=get_permalink(get_queried_object_id());
     ob_start(); ?>
     <section class="anjod"><header class="anjod-hero"><p>ANJO LOCAL BUSINESS GUIDE</p><h2>安城のお店と企業を、<br>いまの情報で探す。</h2><p>食事、買い物、暮らしのサービス、地域の企業を、町名や業種から探せます。</p><strong><?php echo esc_html(number_format_i18n((int)wp_count_posts('anjod_shop')->publish)); ?>件の店舗・企業情報</strong></header>
     <form class="anjod-form" method="get" action="<?php echo esc_url($base); ?>">
       <?php if(!get_option('permalink_structure')): ?><input type="hidden" name="page_id" value="<?php echo esc_attr(get_queried_object_id()); ?>"><?php endif; ?>
       <label>店名・町名・電話など<input type="search" name="anjo_q" value="<?php echo esc_attr($search); ?>" placeholder="例：カフェ、桜井町"></label>
       <label>業種<select name="anjo_cat"><option value="0">すべての業種</option><?php if(!is_wp_error($terms))foreach($terms as $t){echo '<option value="'.esc_attr($t->term_id).'" '.selected($cat,$t->term_id,false).'>'.esc_html($t->name).'（'.esc_html($t->count).'）</option>';} ?></select></label>
+      <?php if(!is_wp_error($tags)&&$tags): ?><fieldset class="anjod-tags"><legend>特徴で絞り込む</legend><?php foreach($tags as $t){ ?><label class="anjod-tag-check"><input type="checkbox" name="anjo_tag[]" value="<?php echo esc_attr($t->term_id); ?>" <?php checked(in_array($t->term_id,$tagIds,true)); ?>><?php echo esc_html($t->name); ?>（<?php echo esc_html($t->count); ?>）</label><?php } ?></fieldset><?php endif; ?>
       <button type="submit">検索する</button><a href="<?php echo esc_url($base); ?>">条件をクリア</a>
     </form><p role="status"><?php echo esc_html(number_format_i18n($q->found_posts)); ?>件が見つかりました。</p>
     <div class="anjod-grid"><?php foreach($q->posts as $p)echo anjod_card($p->ID); ?></div>
     <?php if(!$q->found_posts)echo '<p>条件に合う店舗がありません。別の言葉で検索してください。</p>'; ?>
-    <nav class="anjod-pages" aria-label="店舗一覧のページ切り替え"><?php echo wp_kses_post(paginate_links(array('base'=>add_query_arg('anjo_page','%#%',$base),'format'=>'','current'=>$page,'total'=>$q->max_num_pages,'add_args'=>array('anjo_q'=>$search,'anjo_cat'=>$cat),'prev_text'=>'前へ','next_text'=>'次へ'))); ?></nav>
+    <nav class="anjod-pages" aria-label="店舗一覧のページ切り替え"><?php echo wp_kses_post(paginate_links(array('base'=>add_query_arg('anjo_page','%#%',$base),'format'=>'','current'=>$page,'total'=>$q->max_num_pages,'add_args'=>array('anjo_q'=>$search,'anjo_cat'=>$cat,'anjo_tag'=>$tagIds),'prev_text'=>'前へ','next_text'=>'次へ'))); ?></nav>
     <footer class="anjod-policy"><h3>掲載情報について</h3><p>情報源・確認日は店舗ごとに異なります。「要確認」は閉店を意味しません。営業日時・電話番号などは、ご利用前に各店舗へご確認ください。</p></footer></section>
     <?php return ob_get_clean();
 });
@@ -290,6 +303,10 @@ add_filter('the_content',function($content){if(is_singular('anjod_shop')&&in_the
 // --- Owner correction request form: submissions are queued for manual review, never auto-applied to shop data. ---
 function anjodfix_fields(){
     return array('phone'=>'電話番号','hours'=>'営業時間・定休日','address'=>'住所','note'=>'その他・伝えたいこと');
+}
+function anjodfix_tag_options(){
+    $terms=get_terms(array('taxonomy'=>'anjod_tag','hide_empty'=>false));
+    return is_wp_error($terms)?array():wp_list_pluck($terms,'name');
 }
 add_action('add_meta_boxes',function(){add_meta_box('anjodfix_details','送信内容','anjodfix_metabox','anjod_fixreq','normal','high');});
 function anjodfix_metabox($post){
@@ -301,16 +318,18 @@ function anjodfix_metabox($post){
         $v=get_post_meta($post->ID,'_anjodfix_'.$k,true);
         echo '<tr><th>'.esc_html($label).'</th><td>'.nl2br(esc_html($v)).'</td></tr>';
     }
+    echo '<tr><th>特徴</th><td>'.esc_html(get_post_meta($post->ID,'_anjodfix_tags',true)).'</td></tr>';
     echo '<tr><th>連絡先</th><td>'.esc_html($contactName).($contactEmail?' / '.esc_html($contactEmail):'').'</td></tr></table>';
-    echo '<p>内容を確認し、該当する店舗（<a href="'.esc_url(admin_url('edit.php?post_type=anjod_shop')).'">店舗情報一覧</a>から該当店舗を編集）に反映してください。反映後はこの依頼をゴミ箱に移動して構いません。</p>';
+    echo '<p>内容を確認し、該当する店舗（<a href="'.esc_url(admin_url('edit.php?post_type=anjod_shop')).'">店舗情報一覧</a>から該当店舗を編集）に反映してください。「特徴」は該当店舗の編集画面右側にある「特徴」ボックスにタグとして追加してください。反映後はこの依頼をゴミ箱に移動して構いません。</p>';
 }
 add_filter('manage_anjod_fixreq_posts_columns',function($cols){
-    return array('cb'=>$cols['cb'],'title'=>'受付日時','shop'=>'店舗名','phone'=>'電話番号','hours'=>'営業時間','contact'=>'連絡先');
+    return array('cb'=>$cols['cb'],'title'=>'受付日時','shop'=>'店舗名','phone'=>'電話番号','hours'=>'営業時間','tags'=>'特徴','contact'=>'連絡先');
 });
 add_action('manage_anjod_fixreq_posts_custom_column',function($col,$id){
     if($col==='shop')echo esc_html(get_post_meta($id,'_anjodfix_shop_name',true));
     if($col==='phone')echo esc_html(get_post_meta($id,'_anjodfix_phone',true));
     if($col==='hours')echo esc_html(get_post_meta($id,'_anjodfix_hours',true));
+    if($col==='tags')echo esc_html(get_post_meta($id,'_anjodfix_tags',true));
     if($col==='contact'){
         $n=get_post_meta($id,'_anjodfix_contact_name',true);$e=get_post_meta($id,'_anjodfix_contact_email',true);
         echo esc_html($n).($e?' / '.esc_html($e):'');
@@ -333,6 +352,7 @@ add_shortcode('anjo_correction_form',function(){
         <label>電話番号<input type="text" name="phone"></label>
         <label>営業時間・定休日<input type="text" name="hours"></label>
         <label>住所<input type="text" name="address"></label>
+        <fieldset class="anjod-tags"><legend>あてはまる特徴（任意）</legend><?php foreach(anjodfix_tag_options() as $t){ ?><label class="anjod-tag-check"><input type="checkbox" name="tags[]" value="<?php echo esc_attr($t); ?>"><?php echo esc_html($t); ?></label><?php } ?></fieldset>
         <label>その他・伝えたいこと<textarea name="note"></textarea></label>
         <label>お名前・会社名（任意）<input type="text" name="contact_name"></label>
         <label>ご連絡先メールアドレス（任意・返信をご希望の場合）<input type="email" name="contact_email"></label>
@@ -360,6 +380,9 @@ function anjod_handle_fix_submit(){
         'address'=>isset($_POST['address'])?sanitize_text_field(wp_unslash($_POST['address'])):'',
         'note'=>isset($_POST['note'])?sanitize_textarea_field(wp_unslash($_POST['note'])):'',
     );
+    $allowedTags=anjodfix_tag_options();
+    $tags=isset($_POST['tags'])&&is_array($_POST['tags'])?array_values(array_intersect($allowedTags,array_map('sanitize_text_field',wp_unslash($_POST['tags'])))):array();
+    $tagsText=implode('、',$tags);
     $contactName=isset($_POST['contact_name'])?sanitize_text_field(wp_unslash($_POST['contact_name'])):'';
     $contactEmail=(isset($_POST['contact_email'])&&is_email(wp_unslash($_POST['contact_email'])))?sanitize_email(wp_unslash($_POST['contact_email'])):'';
 
@@ -367,10 +390,11 @@ function anjod_handle_fix_submit(){
     if(!is_wp_error($id)){
         update_post_meta($id,'_anjodfix_shop_name',$shop);
         foreach($fields as $k=>$v)update_post_meta($id,'_anjodfix_'.$k,$v);
+        update_post_meta($id,'_anjodfix_tags',$tagsText);
         update_post_meta($id,'_anjodfix_contact_name',$contactName);
         update_post_meta($id,'_anjodfix_contact_email',$contactEmail);
         wp_mail(get_option('admin_email'),'【安城ナビ】店舗情報の修正依頼：'.$shop,
-            "店舗名: {$shop}\n電話番号: {$fields['phone']}\n営業時間・定休日: {$fields['hours']}\n住所: {$fields['address']}\nその他: {$fields['note']}\n連絡先: {$contactName} {$contactEmail}\n\n確認・反映: ".admin_url('edit.php?post_type=anjod_fixreq'));
+            "店舗名: {$shop}\n電話番号: {$fields['phone']}\n営業時間・定休日: {$fields['hours']}\n住所: {$fields['address']}\n特徴: {$tagsText}\nその他: {$fields['note']}\n連絡先: {$contactName} {$contactEmail}\n\n確認・反映: ".admin_url('edit.php?post_type=anjod_fixreq'));
     }
     wp_safe_redirect(add_query_arg('anjo_sent','1',$redirect));exit;
 }
