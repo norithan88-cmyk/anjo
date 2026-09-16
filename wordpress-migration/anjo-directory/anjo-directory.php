@@ -17,7 +17,7 @@ function anjod_init() {
 }
 add_action('init','anjod_init');
 function anjod_seed_tags(){
-    foreach(array('駐車場あり','テイクアウト可','子ども連れOK') as $t){
+    foreach(array('駐車場あり','テイクアウト可','子ども連れOK','ペットOK','Wi-Fiあり','キャッシュレス可','個室あり') as $t){
         if(!term_exists($t,'anjod_tag'))wp_insert_term($t,'anjod_tag');
     }
 }
