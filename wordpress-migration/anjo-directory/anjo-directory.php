@@ -45,7 +45,8 @@ function anjod_import_page(){
     if(!current_user_can('manage_options'))return;
     $offset=(int)get_option('anjod_import_offset',0);
     $srcOffset=(int)get_option('anjod_fix_source_offset',0);
-    echo '<div class="wrap"><h1>安城ナビ：データ取り込み</h1><p>同梱データを50件ずつ取り込みます。画面を閉じても再開できます。同じデータを二重登録せず、取り込み済み店舗の編集内容を上書きしません。</p><p>確認日と確認状況は元データのまま引き継ぎます。取り込みは営業状況の再検証ではありません。</p><button class="button button-primary" id="anjod-run">取り込みを開始・再開</button><p role="status" id="anjod-progress">処理済み：'.esc_html($offset).'件</p><hr><h2>検索ページを作成</h2><p>取り込み完了後に実行してください。固定ページ「安城ナビ」を公開します。トップページへの設定は「設定 → 表示設定」で選べます。</p><button class="button" id="anjod-page">検索ページを作成</button><p id="anjod-page-result"></p><hr><h2>表示文言の一括修正</h2><p>「営業中(未確認)」を「営業状況未確認」に修正します。手動で変更済みの店舗は対象外です（完全一致するもののみ更新）。何度実行しても安全です。</p><button class="button" id="anjod-fix-status">文言を修正</button><p id="anjod-fix-status-result"></p><hr><h2>情報源URLの一括反映</h2><p>同梱データに追加した情報源URLを、既存店舗に反映します（50件ずつ、情報源が未登録の店舗のみ。手動で入力済みの店舗は上書きしません）。</p><button class="button" id="anjod-fix-source">情報源URLを反映・再開</button><p role="status" id="anjod-fix-source-progress">処理済み：'.esc_html($srcOffset).'件</p></div>';
+    $floorOffset=(int)get_option('anjod_fix_floor_offset',0);
+    echo '<div class="wrap"><h1>安城ナビ：データ取り込み</h1><p>同梱データを50件ずつ取り込みます。画面を閉じても再開できます。同じデータを二重登録せず、取り込み済み店舗の編集内容を上書きしません。</p><p>確認日と確認状況は元データのまま引き継ぎます。取り込みは営業状況の再検証ではありません。</p><button class="button button-primary" id="anjod-run">取り込みを開始・再開</button><p role="status" id="anjod-progress">処理済み：'.esc_html($offset).'件</p><hr><h2>検索ページを作成</h2><p>取り込み完了後に実行してください。固定ページ「安城ナビ」を公開します。トップページへの設定は「設定 → 表示設定」で選べます。</p><button class="button" id="anjod-page">検索ページを作成</button><p id="anjod-page-result"></p><hr><h2>表示文言の一括修正</h2><p>「営業中(未確認)」を「営業状況未確認」に修正します。手動で変更済みの店舗は対象外です（完全一致するもののみ更新）。何度実行しても安全です。</p><button class="button" id="anjod-fix-status">文言を修正</button><p id="anjod-fix-status-result"></p><hr><h2>情報源URLの一括反映</h2><p>同梱データに追加した情報源URLを、既存店舗に反映します（50件ずつ、情報源が未登録の店舗のみ。手動で入力済みの店舗は上書きしません）。</p><button class="button" id="anjod-fix-source">情報源URLを反映・再開</button><p role="status" id="anjod-fix-source-progress">処理済み：'.esc_html($srcOffset).'件</p><hr><h2>ららぽーと安城フロア情報の一括反映</h2><p>同梱データに追加した「ららぽーと安城」内店舗のフロア（1F〜4F）情報を、既存店舗の住所に反映します（50件ずつ、住所にフロア表記が無い店舗のみ）。</p><button class="button" id="anjod-fix-floor">フロア情報を反映・再開</button><p role="status" id="anjod-fix-floor-progress">処理済み：'.esc_html($floorOffset).'件</p></div>';
     wp_enqueue_script('anjod-import',plugins_url('import.js',__FILE__),array(),'1.0.0',true);
     wp_localize_script('anjod-import','anjodImport',array('url'=>admin_url('admin-ajax.php'),'nonce'=>wp_create_nonce('anjod_import')));
 }
@@ -123,6 +124,42 @@ add_action('wp_ajax_anjod_fix_source',function(){
         delete_option('anjod_fix_source_lock');
         wp_send_json_success(array('offset'=>$end,'total'=>count($rows),'done'=>$end===count($rows),'updated'=>$updated));
     }catch(Throwable $e){delete_option('anjod_fix_source_lock');wp_send_json_error($e->getMessage(),500);}
+});
+add_action('wp_ajax_anjod_fix_floor',function(){
+    anjod_authorize();
+    if(!add_option('anjod_fix_floor_lock',time(),'','no')){
+        $t=(int)get_option('anjod_fix_floor_lock');
+        if($t<time()-180){delete_option('anjod_fix_floor_lock');}
+        wp_send_json_error('処理中です。数分後に再開してください。',409);
+    }
+    try{
+        $rows=json_decode(file_get_contents(__DIR__.'/data.json'),true);
+        if(!is_array($rows))throw new Exception('同梱データを読み込めません。');
+        if((int)get_option('anjod_fix_floor_total',0)!==count($rows)){
+            update_option('anjod_fix_floor_offset',0,false);
+            update_option('anjod_fix_floor_total',count($rows),false);
+        }
+        $offset=(int)get_option('anjod_fix_floor_offset',0);$end=min($offset+50,count($rows));
+        $updated=0;
+        $hasFloor='/(B?\d+)\s*(?:F|階)/ui';
+        for($i=$offset;$i<$end;$i++){
+            $r=$rows[$i];
+            if(empty($r['_migration_id'])||empty($r['address']))continue;
+            if(strpos($r['address'],'ららぽーと')===false)continue;
+            if(!preg_match($hasFloor,$r['address']))continue;
+            $key=sanitize_text_field($r['_migration_id']);
+            $existing=get_posts(array('post_type'=>'anjod_shop','post_status'=>array('publish','draft','pending','private','future','trash'),'fields'=>'ids','numberposts'=>1,'meta_key'=>'_anjod_migration_id','meta_value'=>$key));
+            if($existing){
+                $postId=$existing[0];
+                $current=get_post_meta($postId,'_anjod_address',true);
+                if($current!==''&&!preg_match($hasFloor,$current))
+                {update_post_meta($postId,'_anjod_address',sanitize_text_field($r['address']));$updated++;}
+            }
+        }
+        update_option('anjod_fix_floor_offset',$end,false);
+        delete_option('anjod_fix_floor_lock');
+        wp_send_json_success(array('offset'=>$end,'total'=>count($rows),'done'=>$end===count($rows),'updated'=>$updated));
+    }catch(Throwable $e){delete_option('anjod_fix_floor_lock');wp_send_json_error($e->getMessage(),500);}
 });
 add_action('wp_ajax_anjod_page',function(){
     anjod_authorize();
