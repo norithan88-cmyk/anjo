@@ -270,12 +270,32 @@ add_filter('posts_search',function($search,$q){
     }
     return $sql;
 },10,2);
+function anjod_category_emoji($name){
+    $map=array('サービス・レジャー'=>'🎡','建設・工業'=>'🏗️','飲食・仕出し'=>'🍴','医療・暮らし'=>'🏥','ファッション・美容'=>'👗','自動車・運送'=>'🚗','ショップ'=>'🛍️','食品'=>'🍞','小売'=>'🛒');
+    return isset($map[$name])?$map[$name]:'🏪';
+}
+function anjod_category_colors($name){
+    $map=array(
+        'サービス・レジャー'=>array('#fff1e0','#b3661b'),
+        '建設・工業'=>array('#eef1f5','#55627a'),
+        '飲食・仕出し'=>array('#ffe9dc','#c1541f'),
+        '医療・暮らし'=>array('#fde8ef','#b2456b'),
+        'ファッション・美容'=>array('#eef0fc','#4a54b0'),
+        '自動車・運送'=>array('#e3f0fd','#1f6fb2'),
+        'ショップ'=>array('#fff7de','#a67c00'),
+        '食品'=>array('#f3e9da','#8a5a26'),
+        '小売'=>array('#eef2f5','#56707a'),
+    );
+    return isset($map[$name])?$map[$name]:array('#edf8f5','#00695f');
+}
 function anjod_card($id){
     $v=array();foreach(anjod_fields() as $k=>$label)$v[$k]=get_post_meta($id,'_anjod_'.$k,true);
     $terms=get_the_terms($id,'anjod_category');$category=$terms&&!is_wp_error($terms)?implode(' / ',wp_list_pluck($terms,'name')):'';
+    $categoryEmoji=$terms&&!is_wp_error($terms)&&$terms?anjod_category_emoji($terms[0]->name):'';
+    list($catBg,$catText)=$terms&&!is_wp_error($terms)&&$terms?anjod_category_colors($terms[0]->name):array('#edf8f5','#00695f');
     ob_start(); ?>
-    <article class="anjod-card">
-      <p class="anjod-tag"><?php echo esc_html($category); ?></p>
+    <article class="anjod-card" style="--cat-line:<?php echo esc_attr($catText); ?>">
+      <p class="anjod-tag" style="background:<?php echo esc_attr($catBg); ?>;color:<?php echo esc_attr($catText); ?>"><?php echo esc_html(($categoryEmoji?$categoryEmoji.' ':'').$category); ?></p>
       <h3><a href="<?php echo esc_url(get_permalink($id)); ?>"><?php echo esc_html(get_the_title($id)); ?></a></h3>
       <p class="anjod-status"><?php echo esc_html($v['status']?:'営業状況要確認'); ?></p>
       <dl><dt>住所</dt><dd><?php echo esc_html($v['address']); ?></dd><dt>電話</dt><dd><?php echo esc_html($v['phone']?:'要確認'); ?></dd></dl>
@@ -286,6 +306,39 @@ function anjod_card($id){
       <?php if($v['source']): ?><a href="<?php echo esc_url($v['source']); ?>" target="_blank" rel="noopener noreferrer">情報源：<?php echo esc_html($v['sourceLabel']?:'掲載元を確認'); ?> ↗</a><?php elseif($v['sourceLabel']): ?><p>情報源：<?php echo esc_html($v['sourceLabel']); ?>（URL未登録）</p><?php endif; ?>
     </article>
     <?php return ob_get_clean();
+}
+function anjod_hero_svg(){
+    return '<svg viewBox="0 0 420 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="安城の街並みのイラスト">
+      <circle cx="362" cy="52" r="26" fill="#ffd27a"/>
+      <path d="M300 46 q8 -9 16 0 q8 -9 16 0" stroke="#15334a" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+      <path d="M330 68 q6 -7 12 0 q6 -7 12 0" stroke="#15334a" stroke-width="2" fill="none" stroke-linecap="round"/>
+      <rect x="0" y="205" width="420" height="55" fill="#d8f0e6"/>
+      <rect x="38" y="150" width="10" height="58" rx="4" fill="#a9784f"/>
+      <circle cx="43" cy="142" r="28" fill="#5fae86"/>
+      <circle cx="18" cy="160" r="18" fill="#6bbd92"/>
+      <circle cx="68" cy="160" r="18" fill="#6bbd92"/>
+      <rect x="108" y="122" width="68" height="86" fill="#fff" stroke="#15334a" stroke-width="3"/>
+      <polygon points="103,122 142,94 181,122" fill="#e8823c" stroke="#15334a" stroke-width="3" stroke-linejoin="round"/>
+      <rect x="128" y="160" width="28" height="48" fill="#15334a"/>
+      <rect x="118" y="136" width="14" height="14" fill="#008585"/>
+      <rect x="152" y="136" width="14" height="14" fill="#008585"/>
+      <rect x="188" y="92" width="58" height="116" fill="#fff" stroke="#15334a" stroke-width="3"/>
+      <rect x="188" y="92" width="58" height="13" fill="#008585"/>
+      <rect x="198" y="116" width="13" height="13" fill="#008585"/>
+      <rect x="222" y="116" width="13" height="13" fill="#008585"/>
+      <rect x="198" y="145" width="13" height="13" fill="#008585"/>
+      <rect x="222" y="145" width="13" height="13" fill="#008585"/>
+      <rect x="207" y="176" width="20" height="32" fill="#15334a"/>
+      <rect x="252" y="132" width="78" height="76" fill="#fff" stroke="#15334a" stroke-width="3"/>
+      <polygon points="247,132 291,104 335,132" fill="#5fae86" stroke="#15334a" stroke-width="3" stroke-linejoin="round"/>
+      <rect x="277" y="170" width="28" height="38" fill="#15334a"/>
+      <rect x="262" y="146" width="14" height="14" fill="#ffd27a"/>
+      <rect x="296" y="146" width="14" height="14" fill="#ffd27a"/>
+      <circle cx="196" cy="228" r="7" fill="#e8823c"/>
+      <rect x="190" y="235" width="12" height="20" rx="5" fill="#15334a"/>
+      <circle cx="226" cy="231" r="6" fill="#008585"/>
+      <rect x="221" y="237" width="10" height="17" rx="5" fill="#5fae86"/>
+    </svg>';
 }
 add_shortcode('anjo_directory',function(){
     $search=isset($_GET['anjo_q'])&&is_scalar($_GET['anjo_q'])?sanitize_text_field(wp_unslash($_GET['anjo_q'])):'';
@@ -298,11 +351,19 @@ add_shortcode('anjo_directory',function(){
     if($taxQuery){$taxQuery['relation']='AND';$args['tax_query']=$taxQuery;}
     $q=new WP_Query($args);$terms=get_terms(array('taxonomy'=>'anjod_category','hide_empty'=>true));$tags=get_terms(array('taxonomy'=>'anjod_tag','hide_empty'=>false));$base=get_permalink(get_queried_object_id());
     ob_start(); ?>
-    <section class="anjod"><header class="anjod-hero"><p>ANJO LOCAL BUSINESS GUIDE</p><h2>安城のお店と企業を、<br>いまの情報で探す。</h2><p>食事、買い物、暮らしのサービス、地域の企業を、町名や業種から探せます。</p><strong><?php echo esc_html(number_format_i18n((int)wp_count_posts('anjod_shop')->publish)); ?>件の店舗・企業情報</strong></header>
+    <section class="anjod"><header class="anjod-hero">
+      <div class="anjod-hero-text">
+        <p>ANJO LOCAL BUSINESS GUIDE</p>
+        <h2>安城のお店と企業を、<br>いまの情報で探す。</h2>
+        <p>食事、買い物、暮らしのサービス、地域の企業を、町名や業種から探せます。</p>
+        <strong><?php echo esc_html(number_format_i18n((int)wp_count_posts('anjod_shop')->publish)); ?>件の店舗・企業情報</strong>
+      </div>
+      <div class="anjod-hero-illust" aria-hidden="true"><?php echo anjod_hero_svg(); ?></div>
+    </header>
     <form class="anjod-form" method="get" action="<?php echo esc_url($base); ?>">
       <?php if(!get_option('permalink_structure')): ?><input type="hidden" name="page_id" value="<?php echo esc_attr(get_queried_object_id()); ?>"><?php endif; ?>
       <label>店名・町名・電話など<input type="search" name="anjo_q" value="<?php echo esc_attr($search); ?>" placeholder="例：カフェ、桜井町"></label>
-      <label>業種<select name="anjo_cat"><option value="0">すべての業種</option><?php if(!is_wp_error($terms))foreach($terms as $t){echo '<option value="'.esc_attr($t->term_id).'" '.selected($cat,$t->term_id,false).'>'.esc_html($t->name).'（'.esc_html($t->count).'）</option>';} ?></select></label>
+      <label>業種<select name="anjo_cat"><option value="0">すべての業種</option><?php if(!is_wp_error($terms))foreach($terms as $t){echo '<option value="'.esc_attr($t->term_id).'" '.selected($cat,$t->term_id,false).'>'.esc_html(anjod_category_emoji($t->name).' '.$t->name).'（'.esc_html($t->count).'）</option>';} ?></select></label>
       <?php if(!is_wp_error($tags)&&$tags): ?><fieldset class="anjod-tags"><legend>特徴で絞り込む</legend><?php foreach($tags as $t){ ?><label class="anjod-tag-check"><input type="checkbox" name="anjo_tag[]" value="<?php echo esc_attr($t->term_id); ?>" <?php checked(in_array($t->term_id,$tagIds,true)); ?>><?php echo esc_html($t->name); ?>（<?php echo esc_html($t->count); ?>）</label><?php } ?></fieldset><?php endif; ?>
       <button type="submit">検索する</button><a href="<?php echo esc_url($base); ?>">条件をクリア</a>
     </form><p role="status"><?php echo esc_html(number_format_i18n($q->found_posts)); ?>件が見つかりました。</p>
